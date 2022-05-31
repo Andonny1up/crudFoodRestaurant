@@ -43,7 +43,7 @@
                         <td><?php echo $row["description"]; ?> </td>
                         <td><?php echo $row["price"]; ?> </td>
                         <td>
-                            <?php echo "<a href=''>Edit</a>"; ?>
+                            <?php echo "<a href='edit.php?id=".$row["id"]."'>Edit</a>"; ?>
                             -
                             <?php echo "<a href=''>Delete</a>"; ?> 
                         </td>
