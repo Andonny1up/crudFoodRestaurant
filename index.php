@@ -43,9 +43,9 @@
                         <td><?php echo $row["description"]; ?> </td>
                         <td><?php echo $row["price"]; ?> </td>
                         <td>
-                            <?php echo "<a href='edit.php?id=".$row["id"]."'>Edit</a>"; ?>
+                            <?php echo "<a href='./edit.php?id=".$row["id"]."'>Edit</a>"; ?>
                             -
-                            <?php echo "<a href=''>Delete</a>"; ?> 
+                            <?php echo "<a href='./delete.php?id=".$row["id"]."' onclick='return confirmDelete()'>Delete</a>"; ?> 
                         </td>
                     </tr>
                     <?php   
@@ -58,5 +58,6 @@
             ?>
         </section>
     </main>
+    <script src="./js/script.js"></script>
 </body>
 </html>
