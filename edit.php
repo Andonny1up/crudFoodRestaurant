@@ -65,10 +65,10 @@
                 </figure>
                 <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
                     <label for="" >Name</label>
-                    <input type="text" name="name" value="<?php echo $name; ?>">
+                    <input type="text" name="name" value="<?php echo $name; ?>" required>
                     
                     <label for="" >Price</label>
-                    <input type="number" step="0.01" name="price" value="<?php echo $price; ?>">
+                    <input type="number" step="0.01" name="price" value="<?php echo $price; ?>" required>
 
                     <label for="" >Description</label>
                     <!-- <input class="description" type="text" name="description" value="<?php echo $description; ?>"> -->

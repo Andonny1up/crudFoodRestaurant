@@ -53,10 +53,10 @@
                 </figure>
                 <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
                     <label for="" >Name</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" required>
                     
                     <label for="" >Price</label>
-                    <input type="number" step="0.01" name="price">
+                    <input type="number" step="0.01" name="price" required>
 
                     <label for="" >Description</label>
                     <textarea name="description" id="" cols="30" rows="10"></textarea>
