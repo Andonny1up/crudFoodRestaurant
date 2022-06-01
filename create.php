@@ -56,7 +56,7 @@
                     <input type="text" name="name">
                     
                     <label for="" >Price</label>
-                    <input type="number" step="0.25" name="price">
+                    <input type="number" step="0.01" name="price">
 
                     <label for="" >Description</label>
                     <textarea name="description" id="" cols="30" rows="10"></textarea>

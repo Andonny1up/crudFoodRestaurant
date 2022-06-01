@@ -159,6 +159,10 @@ th,td {
     width: 100%;
     font-size: 1.7rem;
 }
+.row textarea{
+    resize: none;
+    height: 15rem;
+}
 .row input.btn{
     border: .1rem solid var(--red);
     background: var(--white);

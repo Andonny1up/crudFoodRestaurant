@@ -68,7 +68,7 @@
                     <input type="text" name="name" value="<?php echo $name; ?>">
                     
                     <label for="" >Price</label>
-                    <input type="number" step="0.25" name="price" value="<?php echo $price; ?>">
+                    <input type="number" step="0.01" name="price" value="<?php echo $price; ?>">
 
                     <label for="" >Description</label>
                     <!-- <input class="description" type="text" name="description" value="<?php echo $description; ?>"> -->
